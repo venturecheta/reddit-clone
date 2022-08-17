@@ -26,7 +26,6 @@ const PostView = () => {
       <div className={style.container}>
         <div className={style.containerWrapper}>
           <Post {...selectedPost} />
-          {/* SaveComment */}
           <SaveComment postId={selectedPost.id}/>
           <Comments postId={selectedPost.id}/>
          </div> 
